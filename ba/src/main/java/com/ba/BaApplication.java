@@ -10,6 +10,6 @@ public class BaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BaApplication.class, args);
-		log.info("test");
+		log.info("test2");
 	}
 }
