@@ -9,10 +9,10 @@ import java.util.Set;
 
 public class AutomaticAdjustmentsUtil {
 
-    private static final String ADJUSTMENTS_ENUM_PACKAGE = "com.other.enum.adjustments";
+    private static final String ADJUSTMENTS_ENUM_PACKAGE = "com.other.enum.adjustments.";
     @SneakyThrows
     public static Class<?> findClassByName(String name) {
-        return Class.forName(ADJUSTMENTS_ENUM_PACKAGE + "." + name);
+        return Class.forName(ADJUSTMENTS_ENUM_PACKAGE + name);
     }
 
     /**
