@@ -1,8 +1,8 @@
 import * as React from 'react'
 import {observer} from 'mobx-react'
 import { Table } from 'reactstrap';
-import {AdjustmentsStore} from '../../../store/Settings/AdjustmentsStore'
-import {AdjustmentsFetcher} from '../../../fetcher/Settings/AdjustmentsFetcher'
+import {AdjustmentsStore} from '../../../store/AdjustmentsStore'
+import {AdjustmentsFetcher} from '../../../fetcher/AdjustmentsFetcher'
 import {Loader} from '../../Loader/Loader'
 import {ErrorBlock} from '../../ErrorBlock/ErrorBlock'
 import {Input} from "../../Input/Input";

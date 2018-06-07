@@ -1,6 +1,6 @@
 import {action, runInAction} from 'mobx'
 import {ajax} from 'fetcher/helpers/ajax'
-import {AdjustmentsStore} from 'store/Settings/AdjustmentsStore'
+import {AdjustmentsStore} from 'store/AdjustmentsStore'
 import * as dest from 'const/AjaxDest'
 
 interface IAdjustmentsProps {
